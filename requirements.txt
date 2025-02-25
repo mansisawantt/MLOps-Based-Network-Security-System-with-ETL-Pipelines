@@ -3,9 +3,11 @@ numpy
 pandas
 pymongo
 certifi
-pymongo[srv]==3.6
+pymongo[srv]
 pymongo
 scikit-learn
+mlflow
 pyaml
+pymongo==4.5.0
 
 #-e .
