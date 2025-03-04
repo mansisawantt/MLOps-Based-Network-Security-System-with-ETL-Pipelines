@@ -9,5 +9,8 @@ scikit-learn
 mlflow
 pyaml
 pymongo==4.5.0
+dagshub
+fastapi
+uvicorn
 
 #-e .

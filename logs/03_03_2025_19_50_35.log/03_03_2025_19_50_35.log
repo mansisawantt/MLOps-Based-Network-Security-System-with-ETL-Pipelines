@@ -1,0 +1,6 @@
+[ 2025-03-03 19:50:45,586 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-03 19:50:45,594 ] 107 dagshub - INFO - Accessing as mansisawantt
+[ 2025-03-03 19:50:46,081 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/mansisawantt/MLOps-Based-Network-Security-System-with-ETL-Pipelines "HTTP/1.1 200 OK"
+[ 2025-03-03 19:50:46,581 ] 1025 httpx - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[ 2025-03-03 19:50:46,584 ] 107 dagshub - INFO - Initialized MLflow to track repo "mansisawantt/MLOps-Based-Network-Security-System-with-ETL-Pipelines"
+[ 2025-03-03 19:50:46,586 ] 107 dagshub - INFO - Repository mansisawantt/MLOps-Based-Network-Security-System-with-ETL-Pipelines initialized!
