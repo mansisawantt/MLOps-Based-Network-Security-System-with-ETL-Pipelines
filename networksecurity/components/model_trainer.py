@@ -26,15 +26,14 @@ from sklearn.ensemble import (
 
 import mlflow
 
-
 #from urllib.parse import urlparse
 
 import dagshub
 dagshub.init(repo_owner='mansisawantt', repo_name='MLOps-Based-Network-Security-System-with-ETL-Pipelines', mlflow=True)
 
-#os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/krishnaik06/networksecurity.mlflow"
-#os.environ["MLFLOW_TRACKING_USERNAME"]="krishnaik06"
-#os.environ["MLFLOW_TRACKING_PASSWORD"]="7104284f1bb44ece21e0e2adb4e36a250ae3251f"
+#os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/mansisawantt/MLOps-Based-Network-Security-System-with-ETL-Pipelines.mlflow"
+#os.environ["MLFLOW_TRACKING_USERNAME"]="mansisawantt"
+
 
 
 
@@ -105,7 +104,7 @@ class ModelTrainer:
         #To get the best model name from dict
         best_model_name = list(model_report.keys())[
             list(model_report.values()).index(best_model_score)
-        ]
+        ] 
         best_model = models[best_model_name]
         y_train_pred=best_model.predict(X_train)
 
