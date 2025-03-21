@@ -33,7 +33,7 @@ The **MLOps-Based Network Security System** is an AI-driven cybersecurity soluti
  ├ 📋 LICENSE
 ```
 
-## 🛠️ Setup & Installation
+##  Setup & Installation
 
 ### 1️⃣ Clone the Repository
 
