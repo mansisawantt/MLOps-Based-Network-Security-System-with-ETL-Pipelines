@@ -4,11 +4,11 @@
 [![AWS Deployment](https://img.shields.io/badge/AWS-Deployed-green)](#deployment-on-aws)  
 [![Docker](https://img.shields.io/badge/Docker-Enabled-blue)](#docker-setup)  
 
-## 🚀 Project Overview
+##  Project Overview
 
 The **MLOps-Based Network Security System** is an AI-driven cybersecurity solution that detects phishing attacks using a machine learning model. The project integrates ETL (Extract, Transform, Load) pipelines to process network data and deploys the model using **Docker** and **AWS Elastic Beanstalk**.
 
-## 🔑 Key Features
+##  Key Features
 
 - **Phishing Detection Model**: Uses **NLP-based techniques** to analyze network requests.
 - **ETL Pipelines**: Extracts, transforms, and loads network security data efficiently.
@@ -20,17 +20,17 @@ The **MLOps-Based Network Security System** is an AI-driven cybersecurity soluti
 
 ```
 📺 MLOps-Based-Network-Security-System
- ├ 📂 src
- ┃ ├ 📋 etl_pipeline.py
- ┃ ├ 📋 model_training.py
- ┃ ├ 📋 app.py  # FastAPI backend
- ├ 📂 docker
- ┃ ├ 📋 Dockerfile
- ├ 📂 .github/workflows
- ┃ ├ 📋 main.yml  # GitHub Actions CI/CD Pipeline
- ├ 📋 requirements.txt
- ├ 📋 README.md
- ├ 📋 LICENSE
+ ├  src
+ ┃ ├  etl_pipeline.py
+ ┃ ├  model_training.py
+ ┃ ├  app.py  # FastAPI backend
+ ├  docker
+ ┃ ├  Dockerfile
+ ├  .github/workflows
+ ┃ ├  main.yml  # GitHub Actions CI/CD Pipeline
+ ├  requirements.txt
+ ├  README.md
+ ├  LICENSE
 ```
 
 ##  Setup & Installation
@@ -60,7 +60,7 @@ Then, open your browser and go to:
 http://localhost:8080/docs
 ```
 
-## 🐓 Docker Setup
+##  Docker Setup
 
 ### Build & Run the Docker Container
 
@@ -69,7 +69,7 @@ docker build -t networksecurity-mansi .
 docker run -d -p 8080:8080 --name networksecurity networksecurity-mansi
 ```
 
-## 🚀 Deployment on AWS
+##  Deployment on AWS
 
 ### 1️⃣ Push Docker Image to AWS ECR
 
@@ -86,19 +86,19 @@ eb init -p docker networksecurity-mansi --region us-east-1
 eb create networksecurity-env
 ```
 
-## 📝 API Endpoints
+##  API Endpoints
 
 | Method | Endpoint        | Description             |
 |--------|----------------|-------------------------|
 | GET    | `/`            | Check API health       |
 | POST   | `/predict`     | Predict phishing links |
 
-## 🔧 CI/CD Pipeline
+##  CI/CD Pipeline
 
 - **GitHub Actions** automates Docker image building and pushes to **AWS ECR**.
 - Deployment is triggered when new code is pushed to the `main` branch.
 
-## 🐄 License
+##  License
 
 This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
