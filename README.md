@@ -106,5 +106,5 @@ This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) f
 
 For any issues, please open a GitHub **issue** or contact me at:  
 📧 Email: *mansisawant438@gmail.com*  
-🔗 LinkedIn: [Mansi Sawant](https://www.linkedin.com/in/mansisawantt/)
+🔗 LinkedIn: [Mansi Sawant](https://www.linkedin.com/in/s-mansi/)
 
